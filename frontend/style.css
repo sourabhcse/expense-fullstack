@@ -1,0 +1,27 @@
+*{
+    margin: 2px;
+    padding: 2px;
+}
+form{
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+    background-color:rgb(157, 148, 167);
+}
+
+form div {
+    display: inline;
+  }
+
+
+table{
+    position: relative;
+    margin: auto;
+    padding: auto;
+    top: 55px;
+}
+
+table, th, td {
+    border: 1px solid;
+    background-color: rgb(108, 228, 202);
+  }

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./style.css" />
+    <title>Expense Tracker</title>
+  </head>
+  <body>
+    <form id="my-form">
+      <div>
+        <label for="">Amount</label>
+        <input type="number" id="amount" required="required" />
+      </div>
+      <div>
+        <label for="">Description</label>
+        <input type="text" id="description" required="required" />
+      </div>
+      <div>
+        <label for="">Category</label>
+        <select name="category" id="category">
+          <option value="oil">Oil</option>
+          <option value="grocery">Grocery</option>
+          <option value="food">Food</option>
+        </select>
+      </div>
+      <button type="submit" name="add">Add</button>
+    </form>
+
+    <table id="my-table"></table>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
